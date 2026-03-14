@@ -1,0 +1,10 @@
+[package]
+name = "ring-gpu"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+io-uring = { version = "0.7.11"}
+rand = { version = "0.10" }
+vulkano = "0.35.2"
+naga = { version = "0.20", features = ["spv-out", "wgsl-in"] }
