@@ -65,7 +65,7 @@ The runtime has these roles:
 
 ---
 
-## ASCII data-flow diagrams
+## Data-flow diagrams
 
 ### 1) Global flow
 
@@ -82,7 +82,7 @@ The runtime has these roles:
                                                              | map_reduce + reduce  |
                                                              +----------------------+
                                                                        |
-                                                                       | wait timeline semaphore
+                                                              wait timeline semaphore
                                                                        v
                                                              +----------------------+
                                                              | Read result f32      |
